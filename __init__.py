@@ -504,8 +504,8 @@ def readconfig(config_path="config.yaml"):                   ###################
         lds_key = config['LDSConnection']['token']
         ldscfg = config['LDSConnection']['config']
         ## manual input for compiled running test file.
-        username = 'lhsphpd' 
-        password = ']SNaEXNn9FF'
+        username = '' 
+        password = ''
 
     except KeyError as e:
         raise KeyError(f"Missing configuration key: {e}")
